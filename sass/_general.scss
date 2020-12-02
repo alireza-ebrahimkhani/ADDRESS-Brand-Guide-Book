@@ -53,6 +53,14 @@ body{
   border: 1px solid $adr-nm-s;
   border-top:0;
  }
+ .br--dont{
+  border: 1px solid $adr-nm-s;
+  border-bottom: 8px solid  #ff4000;
+}
+.br--do{
+  border: 1px solid $adr-nm-s;
+  border-bottom: 8px solid #26c260;
+}
  img{
    background-color: white;
  }

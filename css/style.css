@@ -51,6 +51,16 @@ body {
   border-top: 0;
 }
 
+.br--dont {
+  border: 1px solid #252322;
+  border-bottom: 8px solid  #ff4000;
+}
+
+.br--do {
+  border: 1px solid #252322;
+  border-bottom: 8px solid #26c260;
+}
+
 img {
   background-color: white;
 }
@@ -418,16 +428,16 @@ a:hover {
 .do {
   font-weight: 500;
   font-size: 1.5rem;
-  color: green;
-  margin-top: 1rem;
+  color: #26c260;
+  padding-top: 2rem;
   font-family: Roboto, sans-serif;
 }
 
 .dont {
   font-weight: 500;
   font-size: 1.5rem;
-  color: red;
-  margin-top: 1rem;
+  color: #ff4000;
+  padding-top: 2rem;
   font-family: Roboto, sans-serif;
 }
 

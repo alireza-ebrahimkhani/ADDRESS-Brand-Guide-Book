@@ -75,6 +75,15 @@ img {
   background-color: unset;
 }
 
+.lottie > svg {
+  border: 1px solid #252322;
+}
+
+.lottie--dont > svg {
+  border: 1px solid #252322;
+  border-bottom: 8px solid  #d73400;
+}
+
 .wr {
   max-width: 1600px;
   margin: 0 auto;
@@ -385,7 +394,7 @@ h6 {
   font-weight: 400;
   font-size: 1.5rem;
   color: white;
-  margin-top: 1rem;
+  margin-top: .75rem;
   font-family: Roboto, sans-serif;
 }
 

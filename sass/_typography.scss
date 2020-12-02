@@ -127,7 +127,7 @@ h6{
 }
 .caption{
     @include type(400, 1.5rem);
-    margin-top:1rem;
+    margin-top:.75rem;
     font-family: $enFont;;
 }
 .overline{

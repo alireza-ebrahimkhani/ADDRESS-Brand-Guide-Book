@@ -72,3 +72,10 @@ body{
  .black{
   background-color: unset;
  }
+ .lottie>svg{
+   border: 1px solid $adr-nm-s;
+ }
+ .lottie--dont > svg{
+  border: 1px solid $adr-nm-s;
+  border-bottom: 8px solid  #d73400;
+}

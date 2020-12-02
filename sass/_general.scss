@@ -55,13 +55,14 @@ body{
  }
  .br--dont{
   border: 1px solid $adr-nm-s;
-  border-bottom: 8px solid  #ff4000;
+  border-bottom: 8px solid  #d73400;
 }
 .br--do{
   border: 1px solid $adr-nm-s;
   border-bottom: 8px solid #26c260;
 }
  img{
+   width: 100%;
    background-color: white;
  }
  .black{

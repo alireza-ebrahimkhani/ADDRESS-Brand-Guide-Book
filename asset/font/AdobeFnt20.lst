@@ -1,0 +1,294 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Studio\Clients\ADDRESS\Guideline\Guideline\asset\Font\ico\address.eot
+FileModTime:1605496580
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Studio\Clients\ADDRESS\Guideline\Guideline\asset\Font\ico\address.svg
+FileModTime:1605496580
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:fontello
+FamilyName:fontello
+StyleName:Regular
+FullName:fontello
+MenuName:fontello
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Studio\Clients\ADDRESS\Guideline\Guideline\asset\Font\ico\address.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:36056
+FileModTime:1605496580
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,fontello
+NameArray:0,Win,1,fontello
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Studio\Clients\ADDRESS\Guideline\Guideline\asset\Font\ico\address.woff
+FileModTime:1605496580
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Studio\Clients\ADDRESS\Guideline\Guideline\asset\Font\ico\address.woff2
+FileModTime:1605496580
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:YekanBakhFaNum-Light
+FamilyName:Yekan Bakh FaNum
+StyleName:Light
+FullName:Yekan Bakh FaNum Light
+MenuName:Yekan Bakh FaNum Light
+StyleBits:0
+FamilyNameNative:Yekan Bakh FaNum
+StyleNameNative:Light
+FullNameNative:Yekan Bakh FaNum Light
+WritingScript:Arabic
+OutlineFileName:D:\Studio\Clients\ADDRESS\Guideline\Guideline\asset\Font\fa\yekanBakhLight.eot
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:50040
+FileModTime:1604721204
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Yekan Bakh FaNum Light
+NameArray:0,Win,1,Yekan Bakh FaNum Light
+NameArray:0,Win,16,Yekan Bakh FaNum
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:YekanBakhFaNum-Light
+FamilyName:Yekan Bakh FaNum
+StyleName:Light
+FullName:Yekan Bakh FaNum Light
+MenuName:Yekan Bakh FaNum Light
+StyleBits:0
+FamilyNameNative:Yekan Bakh FaNum
+StyleNameNative:Light
+FullNameNative:Yekan Bakh FaNum Light
+WritingScript:Arabic
+OutlineFileName:D:\Studio\Clients\ADDRESS\Guideline\Guideline\asset\Font\fa\yekanBakhLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:50040
+FileModTime:1604721204
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Yekan Bakh FaNum Light
+NameArray:0,Win,1,Yekan Bakh FaNum Light
+NameArray:0,Win,16,Yekan Bakh FaNum
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:YekanBakhFaNum-Light
+FamilyName:Yekan Bakh FaNum
+StyleName:Light
+FullName:Yekan Bakh FaNum Light
+MenuName:Yekan Bakh FaNum Light
+StyleBits:0
+FamilyNameNative:Yekan Bakh FaNum
+StyleNameNative:Light
+FullNameNative:Yekan Bakh FaNum Light
+WritingScript:Arabic
+OutlineFileName:D:\Studio\Clients\ADDRESS\Guideline\Guideline\asset\Font\fa\yekanBakhLight.woff
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:50040
+FileModTime:1604721204
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Yekan Bakh FaNum Light
+NameArray:0,Win,1,Yekan Bakh FaNum Light
+NameArray:0,Win,16,Yekan Bakh FaNum
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:YekanBakhFaNum-Medium
+FamilyName:Yekan Bakh FaNum
+StyleName:Medium
+FullName:Yekan Bakh FaNum Medium
+MenuName:Yekan Bakh FaNum Medium
+StyleBits:0
+FamilyNameNative:Yekan Bakh FaNum
+StyleNameNative:Medium
+FullNameNative:Yekan Bakh FaNum Medium
+WritingScript:Arabic
+OutlineFileName:D:\Studio\Clients\ADDRESS\Guideline\Guideline\asset\Font\fa\yekanBakhMedium.eot
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:49512
+FileModTime:1604721204
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Yekan Bakh FaNum Medium
+NameArray:0,Win,1,Yekan Bakh FaNum Medium
+NameArray:0,Win,16,Yekan Bakh FaNum
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:YekanBakhFaNum-Medium
+FamilyName:Yekan Bakh FaNum
+StyleName:Medium
+FullName:Yekan Bakh FaNum Medium
+MenuName:Yekan Bakh FaNum Medium
+StyleBits:0
+FamilyNameNative:Yekan Bakh FaNum
+StyleNameNative:Medium
+FullNameNative:Yekan Bakh FaNum Medium
+WritingScript:Arabic
+OutlineFileName:D:\Studio\Clients\ADDRESS\Guideline\Guideline\asset\Font\fa\yekanBakhMedium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:49512
+FileModTime:1604721204
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Yekan Bakh FaNum Medium
+NameArray:0,Win,1,Yekan Bakh FaNum Medium
+NameArray:0,Win,16,Yekan Bakh FaNum
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:YekanBakhFaNum-Medium
+FamilyName:Yekan Bakh FaNum
+StyleName:Medium
+FullName:Yekan Bakh FaNum Medium
+MenuName:Yekan Bakh FaNum Medium
+StyleBits:0
+FamilyNameNative:Yekan Bakh FaNum
+StyleNameNative:Medium
+FullNameNative:Yekan Bakh FaNum Medium
+WritingScript:Arabic
+OutlineFileName:D:\Studio\Clients\ADDRESS\Guideline\Guideline\asset\Font\fa\yekanBakhMedium.woff
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:49512
+FileModTime:1604721204
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Yekan Bakh FaNum Medium
+NameArray:0,Win,1,Yekan Bakh FaNum Medium
+NameArray:0,Win,16,Yekan Bakh FaNum
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:YekanBakhFaNum-Regular
+FamilyName:Yekan Bakh FaNum
+StyleName:Regular
+FullName:Yekan Bakh FaNum Regular
+MenuName:Yekan Bakh FaNum
+StyleBits:0
+FamilyNameNative:Yekan Bakh FaNum
+StyleNameNative:Regular
+FullNameNative:Yekan Bakh FaNum Regular
+WritingScript:Arabic
+OutlineFileName:D:\Studio\Clients\ADDRESS\Guideline\Guideline\asset\Font\fa\yekanBakhRegular.eot
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:49692
+FileModTime:1604721204
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Yekan Bakh FaNum Regular
+NameArray:0,Win,1,Yekan Bakh FaNum
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:YekanBakhFaNum-Regular
+FamilyName:Yekan Bakh FaNum
+StyleName:Regular
+FullName:Yekan Bakh FaNum Regular
+MenuName:Yekan Bakh FaNum
+StyleBits:0
+FamilyNameNative:Yekan Bakh FaNum
+StyleNameNative:Regular
+FullNameNative:Yekan Bakh FaNum Regular
+WritingScript:Arabic
+OutlineFileName:D:\Studio\Clients\ADDRESS\Guideline\Guideline\asset\Font\fa\yekanBakhRegular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:49692
+FileModTime:1604721204
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Yekan Bakh FaNum Regular
+NameArray:0,Win,1,Yekan Bakh FaNum
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:YekanBakhFaNum-Regular
+FamilyName:Yekan Bakh FaNum
+StyleName:Regular
+FullName:Yekan Bakh FaNum Regular
+MenuName:Yekan Bakh FaNum
+StyleBits:0
+FamilyNameNative:Yekan Bakh FaNum
+StyleNameNative:Regular
+FullNameNative:Yekan Bakh FaNum Regular
+WritingScript:Arabic
+OutlineFileName:D:\Studio\Clients\ADDRESS\Guideline\Guideline\asset\Font\fa\yekanBakhRegular.woff
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:49692
+FileModTime:1604721204
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Yekan Bakh FaNum Regular
+NameArray:0,Win,1,Yekan Bakh FaNum
+%EndFont
+

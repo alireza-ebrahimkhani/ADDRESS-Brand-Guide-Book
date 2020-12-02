@@ -1,0 +1,61 @@
+@import 'color';
+
+* , *:before , *:after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+$motion : .3s all ease;
+
+html {
+    font-size:8px;
+  }
+body{
+    background-color: black;
+    font-size: 8px;
+}
+
+::-webkit-scrollbar {
+    width: .5rem;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background : $adr-nm-s;
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb {
+    background: $adr-nm-d;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: $adr-nm-m; 
+}
+
+.lazy-wrapper{
+ position: relative;
+}
+.lazy-wrapper svg, .lazy-wrapper img{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.br{
+ border: 1px solid $adr-nm-s;
+}
+.br--tab{
+  border: 1px solid $adr-nm-s;
+  border-top:0;
+ }
+ img{
+   background-color: white;
+ }
+ .black{
+  background-color: unset;
+ }

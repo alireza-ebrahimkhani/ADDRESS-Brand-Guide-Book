@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 858 504">
+  <title>material-44</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect width="858" height="504" style="fill: #383636"/>
+    <path d="M222.59,438H66L364.94,153.29l177.94,178,71.18-71.18L792,438ZM612,123a57,57,0,1,0,57-57A57,57,0,0,0,612,123Z" style="fill: #4c4a49"/>
+    <text transform="translate(66 114)" style="font-size: 60.148841857910156px;fill: #fff;font-family: Roboto-Bold, Roboto;font-weight: 700">Use white text <tspan x="0" y="53.09">on dark images.</tspan></text>
+  </g>
+</svg>

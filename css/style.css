@@ -61,6 +61,11 @@ body {
   border-bottom: 8px solid #26c260;
 }
 
+.br--allowed {
+  border: 1px solid #252322;
+  border-bottom: 8px solid #fdc215;
+}
+
 img {
   width: 100%;
   background-color: white;
@@ -438,6 +443,14 @@ a:hover {
   font-weight: 500;
   font-size: 1.5rem;
   color: #d73400;
+  padding-top: 2rem;
+  font-family: Roboto, sans-serif;
+}
+
+.allowed {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #fdc215;
   padding-top: 2rem;
   font-family: Roboto, sans-serif;
 }

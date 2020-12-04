@@ -53,15 +53,15 @@ function toggleSwitch(){
     });
 }
 //hide header
-var lastScroll = 0, delta= 100;
+var lastScroll = 0, delta= 200;
 window.addEventListener('scroll' , function(){
-    
+    var mainNav__div = document.querySelector(".main__nav");
     var nowScroll = window.pageYOffset;
     if (Math.abs(lastScroll - nowScroll) > delta){
         var header_header = document.querySelector('header');
         var mainNav_div = document.querySelector('.main__nav');
         var hamico_div = document.querySelector('.header__hamico');
-    if (nowScroll > lastScroll &&  lastScroll != 0){
+    if (nowScroll > lastScroll &&  lastScroll != 0 && mainNav__div.classList.contains("main__nav--open")==false){
         header_header.classList.add('header--hidden');
         mainNav_div.classList.add('main__nav--up');
         hamico_div.classList.add('header__hamico--hidden');

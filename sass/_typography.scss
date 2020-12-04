@@ -127,7 +127,7 @@ h6 , .h6{
 }
 .caption{
     @include type(400, 1.5rem);
-    margin-top:.75rem;
+    margin-top:1rem;
     font-family: $enFont;;
 }
 .overline{
@@ -204,6 +204,7 @@ a{
     color:#26c260;
     padding-top:2rem;
     font-family: $enFont;
+    margin-bottom: -.75rem;
 }
 .dont{
     font-weight: 500;
@@ -211,11 +212,13 @@ a{
     color: #d73400;
     padding-top:2rem;
     font-family: $enFont;
+    margin-bottom: -.75rem;
 }
 .allowed{
     font-weight: 500;
     font-size: 1.5rem;
     color: #fdc215;
     padding-top:2rem;
+    margin-bottom: -.75rem;
     font-family: $enFont;
 }

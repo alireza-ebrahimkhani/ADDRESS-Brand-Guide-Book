@@ -398,7 +398,7 @@ h6, .h6 {
   font-weight: 400;
   font-size: 1.5rem;
   color: white;
-  margin-top: .75rem;
+  margin-top: 1rem;
   font-family: Roboto, sans-serif;
 }
 
@@ -511,6 +511,7 @@ a:hover {
   color: #26c260;
   padding-top: 2rem;
   font-family: Roboto, sans-serif;
+  margin-bottom: -.75rem;
 }
 
 .dont {
@@ -519,6 +520,7 @@ a:hover {
   color: #d73400;
   padding-top: 2rem;
   font-family: Roboto, sans-serif;
+  margin-bottom: -.75rem;
 }
 
 .allowed {
@@ -526,6 +528,7 @@ a:hover {
   font-size: 1.5rem;
   color: #fdc215;
   padding-top: 2rem;
+  margin-bottom: -.75rem;
   font-family: Roboto, sans-serif;
 }
 
@@ -1266,9 +1269,15 @@ header {
   }
 }
 
+@media only screen and (min-width: 1600px) {
+  .main__nav {
+    width: 334px;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .main__nav {
-    padding: 7.5rem 3rem 3rem;
+    padding: 7.5rem 0rem 0rem 3rem;
     width: 300px;
     background-color: black;
     left: -300px;

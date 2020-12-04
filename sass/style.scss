@@ -226,8 +226,11 @@ header{
         @include desktop{
             width: calc(((((100% - 6rem) - 33rem) / 12) * 3) + 6rem);
         }
+        @include desktopx{
+            width: 334px;
+        }
         @include tablet{
-            padding: 7.5rem 3rem 3rem;;
+            padding: 7.5rem 0rem 0rem 3rem;
             width: 300px;
             background-color: $adr-black;
             left: -300px;

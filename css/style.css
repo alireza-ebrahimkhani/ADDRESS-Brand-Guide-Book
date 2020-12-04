@@ -261,17 +261,17 @@ section {
   opacity: 1;
 }
 
-.bodyi--fa, .bodyii--fa, .caption--fa {
+.h1--fa, .h2--fa, .h3--fa, .h4--fa, .h5--fa, .h6--fa, .subtitlei--fa, .subtitleii--fa, .bodyi--fa, .bodyii--fa, .button--fa, .caption--fa, .overline--fa {
   font-family: yekanbakh;
   text-align: right;
   direction: rtl;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: Roboto, sans-serif;
 }
 
-h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+h1::before, .h1::before, h2::before, .h2::before, h3::before, .h3::before, h4::before, .h4::before, h5::before, .h5::before, h6::before, .h6::before {
   height: 10.5rem;
   display: block;
   content: " ";
@@ -280,13 +280,13 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
 }
 
 @media only screen and (max-width: 600px) {
-  h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+  h1::before, .h1::before, h2::before, .h2::before, h3::before, .h3::before, h4::before, .h4::before, h5::before, .h5::before, h6::before, .h6::before {
     height: 14rem;
     margin-top: -14rem;
   }
 }
 
-h1 {
+h1, .h1 {
   font-weight: 300;
   font-size: 12rem;
   color: white;
@@ -294,14 +294,14 @@ h1 {
 }
 
 @media only screen and (max-width: 600px) {
-  h1 {
+  h1, .h1 {
     font-weight: 400;
     font-size: 6.5rem;
     color: white;
   }
 }
 
-h2 {
+h2, .h2 {
   font-weight: 300;
   font-size: 7.5rem;
   color: white;
@@ -309,14 +309,14 @@ h2 {
 }
 
 @media only screen and (max-width: 600px) {
-  h2 {
+  h2, .h2 {
     font-weight: 300;
     font-size: 5rem;
     color: white;
   }
 }
 
-h3 {
+h3, .h3 {
   font-weight: 400;
   font-size: 5.25rem;
   color: white;
@@ -324,14 +324,14 @@ h3 {
 }
 
 @media only screen and (max-width: 600px) {
-  h3 {
+  h3, .h3 {
     font-weight: 400;
     font-size: 4.5rem;
     color: white;
   }
 }
 
-h4 {
+h4, .h4 {
   font-weight: 400;
   font-size: 4rem;
   color: white;
@@ -339,20 +339,20 @@ h4 {
 }
 
 @media only screen and (max-width: 600px) {
-  h4 {
+  h4, .h4 {
     font-weight: 400;
     font-size: 3.5rem;
     color: white;
   }
 }
 
-h5 {
+h5, .h5 {
   font-weight: 400;
   font-size: 2.75rem;
   color: white;
 }
 
-h6 {
+h6, .h6 {
   font-weight: 500;
   font-size: 2rem;
   color: white;
@@ -388,7 +388,7 @@ h6 {
 
 .button {
   font-weight: 500;
-  font-size: 1.75rem;
+  font-size: 2rem;
   color: white;
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
@@ -403,10 +403,11 @@ h6 {
 }
 
 .overline {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.25rem;
   color: white;
   font-family: Roboto, sans-serif;
+  letter-spacing: 1.5px;
 }
 
 a {
@@ -424,16 +425,70 @@ a:hover {
   transition: 0.3s all ease;
 }
 
-.bodyi--fa {
+.h1--fa {
+  font-weight: 300;
+  font-size: 12rem;
+  color: white;
+}
+
+.h2--fa {
+  font-weight: 300;
+  font-size: 7.5rem;
+  color: white;
+}
+
+.h3--fa {
   font-weight: 400;
+  font-size: 5.25rem;
+  color: white;
+}
+
+.h4--fa {
+  font-weight: 300;
+  font-size: 4rem;
+  color: white;
+}
+
+.h5--fa {
+  font-weight: 400;
+  font-size: 2.75rem;
+  color: white;
+}
+
+.h6--fa {
+  font-weight: 400;
+  font-size: 2rem;
+  color: white;
+}
+
+.subtitlei--fa {
+  font-weight: 400;
+  font-size: 2rem;
+  color: white;
+}
+
+.subtitleii--fa {
+  font-weight: 300;
   font-size: 1.75rem;
   color: white;
-  line-height: 19px;
+}
+
+.bodyi--fa {
+  font-weight: 400;
+  font-size: 2rem;
+  color: white;
 }
 
 .bodyii--fa {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+  color: white;
+  line-height: 21px;
+}
+
+.button--fa {
+  font-weight: 400;
+  font-size: 2rem;
   color: white;
   line-height: 19px;
 }
@@ -441,6 +496,12 @@ a:hover {
 .caption--fa {
   font-weight: 400;
   font-size: 1.5rem;
+  color: white;
+}
+
+.overline--fa {
+  font-weight: 300;
+  font-size: 1.25rem;
   color: white;
 }
 
@@ -808,23 +869,40 @@ a.toc-link:hover {
 
 .accordion__list {
   list-style: none;
-  width: 500px;
   margin: 50px auto;
+}
+
+.accordion .h1, .accordion .h2, .accordion .h3, .accordion .h4, .accordion .h5, .accordion .h6, .accordion .subtitlei, .accordion .subtitleii, .accordion .bodyi, .accordion .bodyii, .accordion .button, .accordion .caption, .accordion .overline {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.accordion .h1--fa, .accordion .h2--fa, .accordion .h3--fa, .accordion .h4--fa, .accordion .h5--fa, .accordion .h6--fa, .accordion .subtitlei--fa, .accordion .subtitleii--fa, .accordion .bodyi--fa, .accordion .bodyii--fa, .accordion .button--fa, .accordion .caption--fa, .accordion .overline--fa {
+  text-align: left;
+}
+
+.accordion .h1:before, .accordion .h2:before, .accordion .h3:before, .accordion .h4:before, .accordion .h5:before, .accordion .h6:before {
+  margin-top: 0 !important;
+  padding-bottom: 0;
+  height: unset !important;
 }
 
 .accordion__header {
   cursor: pointer;
   padding: 16px;
-  border-top: 1px solid grey;
+  border-top: 1px solid #252322;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.accordion__header:hover {
+  background-color: #252322;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 
 .accordion__item:first-child > .accordion__header {
-  border-top: 0px solid grey;
-}
-
-.accordion__header h3 {
-  display: inline-block;
-  padding: 3px 0;
+  border-top: 0px solid #252322;
 }
 
 .accordion__body {
@@ -832,16 +910,16 @@ a.toc-link:hover {
   padding: 0 16px;
   overflow: hidden;
   opacity: 0;
-  -webkit-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 
 .accordion__body--active {
   max-height: unset;
   opacity: 1;
   padding: 16px 16px;
-  -webkit-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 
 .accordion__body--deactive {
@@ -849,45 +927,13 @@ a.toc-link:hover {
   padding: 0 16px;
   overflow: hidden;
   opacity: 0;
-  -webkit-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 
-.accordion__icon {
-  width: 24px;
-  height: 24px;
-  float: right;
-  position: relative;
-}
-
-.accordion__icon .accordion__lineI {
-  height: 2px;
-  width: 18px;
-  background-color: black;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.accordion__lineII {
-  height: 18px;
-  width: 2px;
-  background-color: black;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  -webkit-transition: .3s all ease;
-  transition: .3s all ease;
-}
-
-.accordion__lineII-open {
-  height: 0px !important;
-  -webkit-transition: .3s all ease;
-  transition: .3s all ease;
+.accordion__info {
+  float: left;
+  margin-right: 2rem;
 }
 
 header {

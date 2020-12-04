@@ -64,7 +64,7 @@ $enFont: Roboto, sans-serif;
     font-size: $size;
     color:white;
 }
-h1{
+h1 , .h1{
     @include type(300, 12rem);
     @extend %enType;
     margin-bottom: 3rem;
@@ -72,7 +72,7 @@ h1{
         @include type(400, 6.5rem);
     }
 }
-h2{
+h2 , .h2{
     @include type(300, 7.5rem);
     @extend %enType;
     margin-bottom: 1rem;
@@ -80,7 +80,7 @@ h2{
         @include type(300, 5rem);
     }
 }
-h3{
+h3 , .h3{
     @include type(400, 5.25rem);
     @extend %enType;
     margin-bottom: 1rem;
@@ -88,7 +88,7 @@ h3{
         @include type(400, 4.5rem);
     }
 }
-h4{
+h4 , .h4{
     @include type(400, 4rem);
     @extend %enType;
     @include mobile{
@@ -96,11 +96,11 @@ h4{
     }
     padding-bottom: 1rem;
 }
-h5{
+h5 , .h5{
     @include type(400, 2.75rem);
     @extend %enType;
 }
-h6{
+h6 , .h6{
     @include type(500, 2rem);
     @extend %enType;
 }
@@ -121,7 +121,7 @@ h6{
     font-family: $enFont;
 }
 .button{
-    @include type(500, 1.75rem);
+    @include type(500, 2rem);
     font-family: $enFont;
     text-transform: uppercase;
 }
@@ -131,8 +131,9 @@ h6{
     font-family: $enFont;;
 }
 .overline{
-    @include type(400, 1.25rem);
+    @include type(300, 1.25rem);
     font-family: $enFont;
+    letter-spacing: 1.5px;
 }
 a{
     @include type(400, 2rem);
@@ -143,18 +144,58 @@ a{
         transition: $motion;
     }
 }
-.bodyi--fa{
-    @include type(400, 1.75rem);
+.h1--fa{
+    @include type(300, 12rem);
     @extend %faType;
-    line-height: 19px;
+}
+.h2--fa{
+    @include type(300, 7.5rem);
+    @extend %faType;
+}
+.h3--fa{
+    @include type(400, 5.25rem);
+    @extend %faType;
+}
+.h4--fa{
+    @include type(300, 4rem);
+    @extend %faType;
+}
+.h5--fa{
+    @include type(400, 2.75rem);
+    @extend %faType;
+}
+.h6--fa{
+    @include type(400, 2rem);
+    @extend %faType;
+}
+.subtitlei--fa{
+    @include type(400, 2rem);
+    @extend %faType;
+}
+.subtitleii--fa{
+    @include type(300, 1.75rem);
+    @extend %faType;
+}
+.bodyi--fa{
+    @include type(400, 2rem);
+    @extend %faType;
 }
 .bodyii--fa{
-    @include type(400, 1.5rem);
+    @include type(400, 1.75rem);
+    @extend %faType;
+    line-height: 21px;
+}
+.button--fa{
+    @include type(400, 2rem);
     @extend %faType;
     line-height: 19px;
 }
 .caption--fa{
     @include type(400, 1.5rem);
+    @extend %faType;
+}
+.overline--fa{
+    @include type(300, 1.25rem);
     @extend %faType;
 }
 .do{

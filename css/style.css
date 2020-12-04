@@ -71,12 +71,16 @@ img {
   background-color: white;
 }
 
-.black {
+.black, .black > svg {
   background-color: unset;
 }
 
 .lottie > svg {
   border: 1px solid #252322;
+}
+
+.brLess > svg {
+  border: 0px solid #252322;
 }
 
 .lottie--dont > svg {
@@ -797,6 +801,95 @@ a.toc-link:hover {
   cursor: pointer;
 }
 
+.accordion {
+  position: relative;
+  width: 100%;
+}
+
+.accordion__list {
+  list-style: none;
+  width: 500px;
+  margin: 50px auto;
+}
+
+.accordion__header {
+  cursor: pointer;
+  padding: 16px;
+  border-top: 1px solid grey;
+}
+
+.accordion__item:first-child > .accordion__header {
+  border-top: 0px solid grey;
+}
+
+.accordion__header h3 {
+  display: inline-block;
+  padding: 3px 0;
+}
+
+.accordion__body {
+  max-height: 0;
+  padding: 0 16px;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+.accordion__body--active {
+  max-height: unset;
+  opacity: 1;
+  padding: 16px 16px;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+.accordion__body--deactive {
+  max-height: 0;
+  padding: 0 16px;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+.accordion__icon {
+  width: 24px;
+  height: 24px;
+  float: right;
+  position: relative;
+}
+
+.accordion__icon .accordion__lineI {
+  height: 2px;
+  width: 18px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.accordion__lineII {
+  height: 18px;
+  width: 2px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+.accordion__lineII-open {
+  height: 0px !important;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
 header {
   width: 100%;
   height: 7.5rem;
@@ -1227,5 +1320,44 @@ header {
   opacity: 1;
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
+}
+
+.compare {
+  margin-bottom: 2rem;
+}
+
+.compare__title {
+  margin-bottom: 1rem;
+}
+
+.compare__subTitle {
+  position: relative;
+  margin-bottom: .5rem;
+}
+
+.compare__subTitle p:nth-child(1) {
+  color: #ff8670;
+}
+
+.compare__subTitle p:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.compare__slider {
+  position: relative;
+}
+
+.compare__left {
+  height: 1rem;
+  background-color: #ff8670;
+  position: absolute;
+}
+
+.compare__right {
+  height: 1rem;
+  width: 100%;
+  background-color: white;
 }
 /*# sourceMappingURL=style.css.map */

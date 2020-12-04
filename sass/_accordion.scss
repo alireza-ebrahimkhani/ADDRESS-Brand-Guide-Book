@@ -1,0 +1,71 @@
+.accordion{
+    position: relative;
+    width: 100%;
+    &__list{
+        list-style: none;
+        width: 500px;
+        margin: 50px auto;
+    }
+    &__header{
+        cursor: pointer;
+        padding: 16px;
+        border-top: 1px solid grey;
+    }
+    &__item:first-child > &__header {
+        border-top: 0px solid grey;
+    }
+    &__header h3 {
+        display: inline-block;
+        padding: 3px 0;
+    }
+    &__body{
+        max-height: 0;
+        padding: 0 16px;
+        overflow: hidden;
+        opacity: 0;
+        transition: .3s all ease;
+    }
+    &__body--active{
+        max-height: unset;
+        opacity: 1;
+        padding: 16px 16px;
+        transition: .3s all ease;
+    }
+    &__body--deactive{
+        max-height: 0;
+        padding: 0 16px;
+        overflow: hidden;
+        opacity: 0;
+        transition: .3s all ease;
+    }
+    &__icon{
+        width: 24px;
+        height: 24px;
+        float: right;
+        position: relative;
+    }
+    &__icon &__lineI{
+        height: 2px;
+        width: 18px;
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    }
+        
+    &__lineII{
+        height: 18px;
+        width: 2px;
+        background-color: black;
+        position: absolute;
+          top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        transition: .3s all ease;
+    }
+    &__lineII-open{
+        height: 0px !important;
+        transition: .3s all ease;
+    }
+}
